@@ -13,7 +13,6 @@ set termencoding=utf-8
 colorscheme desert
 
 filetype plugin on
-filetype indent on
 
 augroup BufferAu
   autocmd!
