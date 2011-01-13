@@ -1,2 +1,4 @@
 defencoding utf-8
 escape ^z^z
+startup_message off
+defscrollback 1000
