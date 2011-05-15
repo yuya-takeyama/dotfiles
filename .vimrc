@@ -20,6 +20,9 @@ autocmd FileType cpp setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 " Ruby
 autocmd FileType ruby setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
+" JavaScript
+autocmd FileType javascript setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
+
 " Python
 " http://d.hatena.ne.jp/shuji_w6e/20090908/1252418641
 autocmd FileType python setl autoindent
