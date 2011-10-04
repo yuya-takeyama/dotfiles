@@ -23,11 +23,14 @@ autocmd FileType ruby setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 " JavaScript
 autocmd FileType javascript setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
+" CoffeeScript
+autocmd FileType coffee setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
+
 " Python
 " http://d.hatena.ne.jp/shuji_w6e/20090908/1252418641
 autocmd FileType python setl autoindent
 autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-autocmd FileType python setl expandtab tabstop=4 shiftwidth=4 softtabstop=4
+autocmd FileType python setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " Go lang
 autocmd FileType go setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
