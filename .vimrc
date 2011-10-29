@@ -28,6 +28,9 @@ autocmd FileType cpp setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType ruby setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 autocmd FileType cucumber setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
+" PHP
+autocmd FileType php setl expandtab tabstop=4 shiftwidth=4 softtabstop=4
+
 " JavaScript
 autocmd FileType javascript setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
