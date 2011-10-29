@@ -114,49 +114,14 @@ set fileformats=unix,dos,mac
 if exists('&ambiwidth')
   set ambiwidth=double
 endif
+
 set nocompatible               " be iMproved
 filetype off                   " required!
 
 set rtp+=~/dev/dotfiles/.vim/vundle.git/
 call vundle#rc()
-
-" let Vundle manage Vundleo
-" required! 
-Bundle 'gmarik/vundle'
-
-" My Bundles here:
-"
-" original repos on github
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-" vim-scripts repos
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'rails.vim'
-" non github repos
-Bundle 'git://git.wincent.com/command-t.git'
-" ...
-
-Bundle 'ruby.vim'
-Bundle 'Vim-Rspec'
-Bundle 'VimClojure'
-Bundle 'Io-programming-language-syntax'
-Bundle 'quickrun'
-
-filetype plugin indent on     " required! 
-"
-" Brief help
-"
-" :BundleInstall  - install bundles (won't update installed)
-" :BundleInstall! - update if installed
-"
-" :Bundles foo    - search for foo
-" :Bundles! foo   - refresh cached list and search for foo
-"
-" :BundleClean    - confirm removal of unused bundles
-" :BundleClean!   - remove without confirmation
-"
-" see :h vundle for more details
-" or wiki for FAQ
-" Note: comments after Bundle command are not allowed..
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/unite.vim'
+Bundle 'thinca/vim-ref'
+Bundle 'thinca/vim-quickrun'
+filetype plugin indent on     " required!
