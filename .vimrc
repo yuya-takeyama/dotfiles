@@ -1,5 +1,5 @@
 syntax on
-filetype on
+colorscheme desert
 au BufNewFile,Bufread *.psgi set filetype=perl
 au BufNewFile,Bufread *.ru   set filetype=ruby
 set number
@@ -10,15 +10,23 @@ set ignorecase
 set autoindent
 set expandtab
 set termencoding=utf-8
-colorscheme desert
 
-filetype plugin on
+let g:quickrun_config = {}
+let g:quickrun_config['ruby.rspec'] = {'command': 'spec'}
+augroup RubyRSpec
+  autocmd!
+  autocmd BufWinEnter,BufNewFile *_spec.rb set filetype=ruby.rspec
+augroup END
+
+" HTML
+autocmd FileType html setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " C++
 autocmd FileType cpp setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " Ruby
 autocmd FileType ruby setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType cucumber setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " JavaScript
 autocmd FileType javascript setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
@@ -106,3 +114,49 @@ set fileformats=unix,dos,mac
 if exists('&ambiwidth')
   set ambiwidth=double
 endif
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/dev/dotfiles/.vim/vundle.git/
+call vundle#rc()
+
+" let Vundle manage Vundleo
+" required! 
+Bundle 'gmarik/vundle'
+
+" My Bundles here:
+"
+" original repos on github
+Bundle 'tpope/vim-fugitive'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+" vim-scripts repos
+Bundle 'L9'
+Bundle 'FuzzyFinder'
+Bundle 'rails.vim'
+" non github repos
+Bundle 'git://git.wincent.com/command-t.git'
+" ...
+
+Bundle 'ruby.vim'
+Bundle 'Vim-Rspec'
+Bundle 'VimClojure'
+Bundle 'Io-programming-language-syntax'
+Bundle 'quickrun'
+
+filetype plugin indent on     " required! 
+"
+" Brief help
+"
+" :BundleInstall  - install bundles (won't update installed)
+" :BundleInstall! - update if installed
+"
+" :Bundles foo    - search for foo
+" :Bundles! foo   - refresh cached list and search for foo
+"
+" :BundleClean    - confirm removal of unused bundles
+" :BundleClean!   - remove without confirmation
+"
+" see :h vundle for more details
+" or wiki for FAQ
+" Note: comments after Bundle command are not allowed..
