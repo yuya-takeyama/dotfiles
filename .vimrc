@@ -1,5 +1,5 @@
 syntax on
-filetype on
+colorscheme desert
 au BufNewFile,Bufread *.psgi set filetype=perl
 au BufNewFile,Bufread *.ru   set filetype=ruby
 set number
@@ -10,15 +10,26 @@ set ignorecase
 set autoindent
 set expandtab
 set termencoding=utf-8
-colorscheme desert
 
-filetype plugin on
+let g:quickrun_config = {}
+let g:quickrun_config['ruby.rspec'] = {'command': 'spec'}
+augroup RubyRSpec
+  autocmd!
+  autocmd BufWinEnter,BufNewFile *_spec.rb set filetype=ruby.rspec
+augroup END
+
+" HTML
+autocmd FileType html setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " C++
 autocmd FileType cpp setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
 " Ruby
 autocmd FileType ruby setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd FileType cucumber setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
+
+" PHP
+autocmd FileType php setl expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 " JavaScript
 autocmd FileType javascript setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
@@ -106,3 +117,14 @@ set fileformats=unix,dos,mac
 if exists('&ambiwidth')
   set ambiwidth=double
 endif
+
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/dev/dotfiles/.vim/vundle.git/
+call vundle#rc()
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/unite.vim'
+Bundle 'thinca/vim-ref'
+Bundle 'thinca/vim-quickrun'
+filetype plugin indent on     " required!
