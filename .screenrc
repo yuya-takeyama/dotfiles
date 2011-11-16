@@ -10,5 +10,5 @@ bind t focus top
 bind b focus bottom
 
 # http://yskwkzhr.blogspot.com/2010/11/screenrc.html
-caption always '%?%F%{= gW}%:%{= KW}%?%2n%f%07=%t%='
+caption always '%?%F%{= gW}%:%{= bW}%?%2n%f%07=%t%='
 hardstatus alwayslastline '%m/%d %02c:%s %{= .g}%H%{-} %L=%-w%45L>%{=u g.}%n %t%{-}%+w %-17<%=%{= .y}(%l)'
