@@ -1,4 +1,8 @@
+defkanji utf-8
 defencoding utf-8
+encoding utf-8 utf-8
+cjkwidth on
+
 startup_message off
 defscrollback 10000
 
