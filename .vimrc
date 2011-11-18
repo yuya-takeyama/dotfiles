@@ -127,6 +127,7 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/unite.vim'
 Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
+Bundle 'ZenCoding.vim'
 filetype plugin indent on     " required!
 
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
