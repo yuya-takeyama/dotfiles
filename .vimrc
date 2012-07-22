@@ -8,7 +8,7 @@ au BufNewFile,Bufread *.ru   set filetype=ruby
 set number
 set termencoding=utf-8
 
-colorscheme desert256
+colorscheme molokai
 
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
 
