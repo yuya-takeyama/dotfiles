@@ -129,6 +129,7 @@ Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 Bundle 'ZenCoding.vim'
 Bundle 'groenewege/vim-less'
+Bundle 'hail2u/vim-css3-syntax'
 
 filetype plugin indent on     " required!
 
