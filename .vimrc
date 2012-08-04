@@ -1,23 +1,15 @@
 source ~/dev/dotfiles/.vimrc.bundle
 source ~/dev/dotfiles/.vimrc.indent
+source ~/dev/dotfiles/.vimrc.search
 
 syntax enable
 au BufNewFile,Bufread *.psgi set filetype=perl
 au BufNewFile,Bufread *.ru   set filetype=ruby
 set number
-set ruler
 set tabstop=4
-set incsearch
-set ignorecase
 set autoindent
 set expandtab
 set termencoding=utf-8
-
-augroup BufferAu
-  autocmd!
-  au BufNewFile,BufRead * let g:AutoComplPop_CompleteOption = '.,w,b,u,t'
-  au BufNewFile,BufRead *.rb let g:AutoComplPop_CompleteOption = '.,w,b,u,t,k~/.vim/dict/ruby.dict'
-augroup END
 
 colorscheme desert256
 

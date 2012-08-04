@@ -1,0 +1,7 @@
+set wrapscan
+set incsearch
+set ignorecase
+set smartcase
+set hlsearch
+"Escの2回押しでハイライト消去
+nmap <ESC><ESC> ;nohlsearch<CR><ESC>
