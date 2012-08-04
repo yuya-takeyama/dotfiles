@@ -120,20 +120,26 @@ endif
 
 set nocompatible               " be iMproved
 filetype off                   " required!
+filetype plugin indent off     " required!
 
-set rtp+=~/dev/dotfiles/.vim/vundle.git/
-call vundle#rc()
-Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/unite.vim'
-Bundle 'Shougo/vimshell.git'
-Bundle 'Shougo/vimproc.git'
-Bundle 'thinca/vim-ref'
-Bundle 'thinca/vim-quickrun'
-Bundle 'ZenCoding.vim'
-Bundle 'groenewege/vim-less'
-Bundle 'hail2u/vim-css3-syntax'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'The-NERD-Tree'
+if has('vim_starting')
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
+  call neobundle#rc(expand('~/.vim/bundle/'))
+endif
+
+NeoBundle 'Shougo/neobundle.vim'
+
+NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/vimshell.git'
+NeoBundle 'Shougo/vimproc.git'
+NeoBundle 'thinca/vim-ref'
+NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'ZenCoding.vim'
+NeoBundle 'groenewege/vim-less'
+NeoBundle 'hail2u/vim-css3-syntax'
+NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'The-NERD-Tree'
 
 filetype plugin indent on     " required!
 
