@@ -11,40 +11,7 @@ set autoindent
 set expandtab
 set termencoding=utf-8
 
-let g:quickrun_config = {}
-let g:quickrun_config['ruby.rspec'] = {'command': 'spec'}
-augroup RubyRSpec
-  autocmd!
-  autocmd BufWinEnter,BufNewFile *_spec.rb set filetype=ruby.rspec
-augroup END
-
-" HTML
-autocmd FileType html setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" C++
-autocmd FileType cpp setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" Ruby
-autocmd FileType ruby setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-autocmd FileType cucumber setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" PHP
-autocmd FileType php setl expandtab tabstop=4 shiftwidth=4 softtabstop=4
-
-" JavaScript
-autocmd FileType javascript setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" CoffeeScript
-autocmd FileType coffee setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" Python
-" http://d.hatena.ne.jp/shuji_w6e/20090908/1252418641
-autocmd FileType python setl autoindent
-autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-autocmd FileType python setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" Go lang
-autocmd FileType go setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
+source ~/dev/dotfiles/.vimrc.indent
 
 " Execute python script C-P
 function! s:ExecPy()
