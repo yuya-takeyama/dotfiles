@@ -129,7 +129,15 @@ Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 Bundle 'ZenCoding.vim'
 Bundle 'groenewege/vim-less'
+Bundle 'hail2u/vim-css3-syntax'
+Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on     " required!
 
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
+
+let g:Powerline_symbols = 'fancy'
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show unicode glyphs
+set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
