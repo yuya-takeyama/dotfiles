@@ -1,7 +1,7 @@
 source ~/dev/dotfiles/.vimrc.bundle
 source ~/dev/dotfiles/.vimrc.indent
 
-syntax on
+syntax enable
 au BufNewFile,Bufread *.psgi set filetype=perl
 au BufNewFile,Bufread *.ru   set filetype=ruby
 set number
