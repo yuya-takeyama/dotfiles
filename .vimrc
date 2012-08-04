@@ -6,9 +6,6 @@ syntax enable
 au BufNewFile,Bufread *.psgi set filetype=perl
 au BufNewFile,Bufread *.ru   set filetype=ruby
 set number
-set tabstop=4
-set autoindent
-set expandtab
 set termencoding=utf-8
 
 colorscheme desert256

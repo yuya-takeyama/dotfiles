@@ -1,27 +1,33 @@
-" HTML
-autocmd FileType html setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
+if has("autocmd")
+  "ファイルタイプの検索を有効にする
+  filetype plugin on
+  "そのファイルタイプにあわせたインデントを利用する
+  filetype indent on
 
-" C++
-autocmd FileType cpp setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" Ruby
-autocmd FileType ruby setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-autocmd FileType cucumber setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" PHP
-autocmd FileType php setl expandtab tabstop=4 shiftwidth=4 softtabstop=4
-
-" JavaScript
-autocmd FileType javascript setl expandtab tabstop=2 shiftwidth=2
-
-" CoffeeScript
-autocmd FileType coffee setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" Python
-" http://d.hatena.ne.jp/shuji_w6e/20090908/1252418641
-autocmd FileType python setl autoindent
-autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-autocmd FileType python setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
-
-" Go lang
-autocmd FileType go setl expandtab tabstop=2 shiftwidth=2 softtabstop=2
+  autocmd FileType apache     setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType aspvbs     setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType c          setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType cpp        setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType cs         setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType css        setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType diff       setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType eruby      setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType html       setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType java       setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType javascript setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType perl       setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType php        setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType python     setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType ruby       setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType haml       setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType sh         setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType sql        setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType vb         setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType vim        setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType wsh        setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType xhtml      setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType xml        setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType yaml       setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType zsh        setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType scala      setlocal sw=2 sts=2 ts=2 et
+endif
