@@ -1,5 +1,4 @@
 syntax on
-colorscheme desert
 au BufNewFile,Bufread *.psgi set filetype=perl
 au BufNewFile,Bufread *.ru   set filetype=ruby
 set number
@@ -12,14 +11,6 @@ set expandtab
 set termencoding=utf-8
 
 source ~/dev/dotfiles/.vimrc.indent
-
-" Execute python script C-P
-function! s:ExecPy()
-    exe "!" . &ft . " %"
-:endfunction
-command! Exec call <SID>ExecPy()
-autocmd FileType python map <silent> <C-P> :call <SID>ExecPy()<CR>
-autocmd FileType python let g:pydiction_location = '~/.vim/pydiction/complete-dict'
 
 augroup BufferAu
   autocmd!
@@ -50,6 +41,13 @@ NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'The-NERD-Tree'
 NeoBundle 'banyan/recognize_charcode.vim'
+NeoBundle 'desert256.vim'
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'tpope/vim-markdown'
+NeoBundle 'JavaScript-syntax'
+NeoBundle 'jQuery'
+
+colorscheme desert256
 
 filetype plugin indent on     " required!
 
