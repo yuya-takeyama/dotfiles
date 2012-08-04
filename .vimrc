@@ -125,12 +125,15 @@ set rtp+=~/dev/dotfiles/.vim/vundle.git/
 call vundle#rc()
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/unite.vim'
+Bundle 'Shougo/vimshell.git'
+Bundle 'Shougo/vimproc.git'
 Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 Bundle 'ZenCoding.vim'
 Bundle 'groenewege/vim-less'
 Bundle 'hail2u/vim-css3-syntax'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'The-NERD-Tree'
 
 filetype plugin indent on     " required!
 
