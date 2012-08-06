@@ -1,4 +1,18 @@
+" NeoBundle BEGIN
+set nocompatible               " be iMproved
+filetype off                   " required!
+filetype plugin indent off     " required!
+
+if has('vim_starting')
+  set runtimepath+=~/.vim/neobundle.vim/
+  call neobundle#rc(expand('~/.vim/bundle/'))
+endif
+
 source ~/dev/dotfiles/.vimrc.bundle
+
+filetype plugin indent on     " required!
+" NeoBundle END
+
 source ~/dev/dotfiles/.vimrc.indent
 source ~/dev/dotfiles/.vimrc.search
 

@@ -1,12 +1,3 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
-filetype plugin indent off     " required!
-
-if has('vim_starting')
-  set runtimepath+=~/.vim/neobundle.vim/
-  call neobundle#rc(expand('~/.vim/bundle/'))
-endif
-
 NeoBundle 'Shougo/neobundle.vim'
 
 NeoBundle 'Shougo/neocomplcache'
@@ -41,5 +32,3 @@ NeoBundle 'mrkn/mrkn256.vim'
 NeoBundle 'jpo/vim-railscasts-theme'
 NeoBundle 'therubymug/vim-pyte'
 NeoBundle 'tomasr/molokai'
-
-filetype plugin indent on     " required!
