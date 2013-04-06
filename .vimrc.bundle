@@ -11,6 +11,8 @@ NeoBundle 'ZenCoding.vim'
 NeoBundle 'Lokaltog/vim-powerline'
 NeoBundle 'scrooloose/nerdtree.git'
 NeoBundle 'banyan/recognize_charcode.vim'
+NeoBundle 'majutsushi/tagbar'
+NeoBundle 'szw/vim-tags'
 
 " Syntax
 NeoBundle 'groenewege/vim-less'

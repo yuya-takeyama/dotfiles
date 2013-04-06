@@ -1,0 +1,9 @@
+" Taken from https://github.com/georgenano/vimrc/blob/master/.vimrc
+
+" NERDTree
+nmap <silent> <C-e> :NERDTreeToggle<CR>
+vmap <silent> <C-e> <Esc> :NERDTreeToggle<CR>
+omap <silent> <C-e> :NERDTreeToggle<CR>
+imap <silent> <C-e> <Esc> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+let g:NERDTreeShowHidden=1

@@ -15,6 +15,8 @@ filetype plugin indent on     " required!
 
 source ~/dev/dotfiles/.vimrc.indent
 source ~/dev/dotfiles/.vimrc.search
+source ~/dev/dotfiles/.vimrc.nerdtree
+source ~/dev/dotfiles/.vimrc.tag
 
 syntax enable
 au BufNewFile,Bufread *.psgi set filetype=perl
