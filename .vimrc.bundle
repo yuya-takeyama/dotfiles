@@ -15,6 +15,7 @@ NeoBundle 'majutsushi/tagbar'
 NeoBundle 'szw/vim-tags'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'gregsexton/gitv'
+NeoBundle 'Raimondi/delimitMate'
 
 " Syntax
 NeoBundle 'groenewege/vim-less'
