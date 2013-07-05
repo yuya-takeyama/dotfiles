@@ -13,6 +13,8 @@ NeoBundle 'scrooloose/nerdtree.git'
 NeoBundle 'banyan/recognize_charcode.vim'
 NeoBundle 'majutsushi/tagbar'
 NeoBundle 'szw/vim-tags'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'gregsexton/gitv'
 
 " Syntax
 NeoBundle 'groenewege/vim-less'
