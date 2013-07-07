@@ -34,3 +34,9 @@ set nocompatible   " Disable vi-compatibility
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show unicode glyphs
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors
+
+" Clojure
+let vimclojure#HighlightBuiltins   = 1
+let vimclojure#HighlightContrib    = 1
+let vimclojure#DynamicHighlighting = 1
+let vimclojure#ParenRainbow        = 1
