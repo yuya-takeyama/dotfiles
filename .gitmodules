@@ -4,6 +4,3 @@
 [submodule "solarized"]
 	path = solarized
 	url = git://github.com/altercation/solarized.git
-[submodule "tmux-powerline"]
-	path = tmux-powerline
-	url = git://github.com/erikw/tmux-powerline.git
