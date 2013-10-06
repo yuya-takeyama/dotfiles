@@ -19,8 +19,13 @@ source ~/dev/dotfiles/.vimrc.nerdtree
 source ~/dev/dotfiles/.vimrc.tag
 
 syntax enable
-au BufNewFile,Bufread *.psgi set filetype=perl
-au BufNewFile,Bufread *.ru   set filetype=ruby
+au BufNewFile,Bufread *.psgi      set filetype=perl
+au BufNewFile,Bufread *.ru        set filetype=ruby
+au BufNewFile,Bufread Gemfile     set filetype=ruby
+au BufNewFile,Bufread Guardfile   set filetype=ruby
+au BufNewFile,Bufread Vagrantfile set filetype=ruby
+au BufNewFile,Bufread Berksfile   set filetype=ruby
+au BufNewFile,Bufread *.go        set filetype=go
 set number
 set termencoding=utf-8
 
@@ -40,3 +45,8 @@ let vimclojure#HighlightBuiltins   = 1
 let vimclojure#HighlightContrib    = 1
 let vimclojure#DynamicHighlighting = 1
 let vimclojure#ParenRainbow        = 1
+
+" Go lang
+if $GOROOT != ''
+  set rtp+=$GOROOT/misc/vim
+endif
