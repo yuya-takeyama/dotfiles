@@ -8,15 +8,15 @@ if has('vim_starting')
   call neobundle#rc(expand('~/.vim/bundle/'))
 endif
 
-source ~/dev/dotfiles/.vimrc.bundle
+source ~/.vim/.vimrc.bundle
 
 filetype plugin indent on     " required!
 " NeoBundle END
 
-source ~/dev/dotfiles/.vimrc.indent
-source ~/dev/dotfiles/.vimrc.search
-source ~/dev/dotfiles/.vimrc.nerdtree
-source ~/dev/dotfiles/.vimrc.tag
+source ~/.vim/.vimrc.indent
+source ~/.vim/.vimrc.search
+source ~/.vim/.vimrc.nerdtree
+source ~/.vim/.vimrc.tag
 
 syntax enable
 au BufNewFile,Bufread *.psgi      set filetype=perl
