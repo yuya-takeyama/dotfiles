@@ -8,5 +8,3 @@ for file in .vim .vimrc .gitconfig .screenrc .tmux.conf; do
 
   ln -vs $__dir__/$file $HOME/$file
 done
-
-vim -c 'NeoBundleInstall!' -c 'q'
