@@ -25,7 +25,7 @@ au BufNewFile,Bufread Gemfile     set filetype=ruby
 au BufNewFile,Bufread Guardfile   set filetype=ruby
 au BufNewFile,Bufread Vagrantfile set filetype=ruby
 au BufNewFile,Bufread Berksfile   set filetype=ruby
-au BufNewFile,Bufread *.go        set filetype=go
+au BufNewFile,Bufread *.go        set filetype=go sw=4 noexpandtab ts=4
 au BufNewFile,Bufread *.slim      set filetype=slim
 set number
 set termencoding=utf-8
@@ -51,3 +51,14 @@ let vimclojure#ParenRainbow        = 1
 if $GOROOT != ''
   set rtp+=$GOROOT/misc/vim
 endif
+" http://qiita.com/methane/items/4905f40e4772afec3e60
+" :Fmt などで gofmt の代わりに goimports を使う
+let g:gofmt_command = 'goimports'
+
+" Go に付属の plugin と gocode を有効にする
+set rtp^=${GOROOT}/misc/vim
+set rtp^=${GOPATH}/src/github.com/nsf/gocode/vim
+
+" 保存時に :Fmt する
+au BufWritePre *.go Fmt
+au FileType go compiler go
