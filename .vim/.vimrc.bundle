@@ -16,6 +16,7 @@ NeoBundle 'szw/vim-tags'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'gregsexton/gitv'
 NeoBundle 'Raimondi/delimitMate'
+NeoBundle 'stephpy/vim-php-cs-fixer'
 
 " Syntax
 NeoBundle 'groenewege/vim-less'
