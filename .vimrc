@@ -60,5 +60,5 @@ set rtp^=${GOROOT}/misc/vim
 set rtp^=${GOPATH}/src/github.com/nsf/gocode/vim
 
 " 保存時に :Fmt する
-au BufWritePre *.go Fmt
+" au BufWritePre *.go Fmt
 au FileType go compiler go
