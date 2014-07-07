@@ -3,7 +3,12 @@
 	email = sign.of.the.wolf.pentagram@gmail.com
 [core]
 	editor = vim -c \"set fenc=utf-8\"
+	autocrlf = input
+	safecrlf = true
+
 [color]
 	ui = true
 [alias]
     gr = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s';
+[ghq]
+	root = /Users/yuya/src
