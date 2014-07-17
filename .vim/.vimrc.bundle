@@ -28,6 +28,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'VimClojure'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'slim-template/vim-slim'
+NeoBundle 'fatih/vim-go'
 
 " Color Schemes
 NeoBundle 'desert256.vim'
