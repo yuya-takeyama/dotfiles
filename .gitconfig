@@ -5,7 +5,7 @@
 	editor = vim -c \"set fenc=utf-8\"
 	autocrlf = input
 	safecrlf = true
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore.global
 
 [color]
 	ui = true
