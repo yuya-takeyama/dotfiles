@@ -1,6 +1,6 @@
 __dir__=$(cd $(dirname $0);pwd)
 
-for file in .vim .vimrc .gitconfig .screenrc .tmux.conf; do
+for file in .vim .vimrc .gitconfig .gitignore.global .screenrc .tmux.conf; do
   if [ -e $HOME/$file ]; then
     echo Delete $HOME/$file
     rm $HOME/$file

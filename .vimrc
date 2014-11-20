@@ -30,7 +30,7 @@ au BufNewFile,Bufread *.slim      set filetype=slim
 set number
 set termencoding=utf-8
 
-colorscheme solarized
+colorscheme desert256
 set background=dark
 
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
@@ -62,3 +62,6 @@ set rtp^=${GOPATH}/src/github.com/nsf/gocode/vim
 " 保存時に :Fmt する
 " au BufWritePre *.go Fmt
 au FileType go compiler go
+
+" NERDtree
+let NERDTreeIgnore = ['\.swp$', '\.pyc$']
