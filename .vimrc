@@ -25,7 +25,7 @@ au BufNewFile,Bufread Gemfile     set filetype=ruby
 au BufNewFile,Bufread Guardfile   set filetype=ruby
 au BufNewFile,Bufread Vagrantfile set filetype=ruby
 au BufNewFile,Bufread Berksfile   set filetype=ruby
-au BufNewFile,Bufread *.go        set filetype=go sw=4 noexpandtab ts=4
+au BufNewFile,Bufread *.go        set filetype=go sw=2 noexpandtab ts=2
 au BufNewFile,Bufread *.slim      set filetype=slim
 set number
 set termencoding=utf-8
