@@ -30,8 +30,8 @@ au BufNewFile,Bufread *.slim      set filetype=slim
 set number
 set termencoding=utf-8
 
-colorscheme desert256
 set background=dark
+colorscheme desert256
 
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
 
