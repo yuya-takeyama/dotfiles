@@ -31,7 +31,7 @@ set number
 set termencoding=utf-8
 
 set background=dark
-colorscheme desert256
+colorscheme solarized
 
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
 
