@@ -8,6 +8,7 @@ brew tap motemen/ghq
 brew tap peco/peco
 
 brew install brew-cask
+brew install cabal-install
 brew install clisp
 brew install clojure
 brew install cmake
@@ -16,17 +17,18 @@ brew install ctags
 brew install curl
 brew install elasticsearch
 brew install erlang
+brew install ghc
 brew install ghq
 brew install git
 brew install go
 brew install heroku
-brew install haskell-platform
 brew install hg
 brew install htop
 brew install hub
 brew install imagemagick
 brew install leiningen
 brew install libiconv
+brew install libxml2
 brew install llvm
 brew install memcached
 brew install mongodb
