@@ -10,7 +10,6 @@ brew tap peco/peco
 brew install brew-cask
 brew install cabal-install
 brew install clisp
-brew install clojure
 brew install cmake
 brew install cpanminus
 brew install ctags
@@ -63,7 +62,6 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install gyazo
 brew cask install iterm2
-brew cask install kindle
 brew cask install robomongo
 brew cask install skype
 brew cask install thunderbird-ja
