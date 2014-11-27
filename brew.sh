@@ -70,5 +70,7 @@ brew cask install vagrant
 brew cask install virtualbox
 brew cask install yorufukurou
 
+brew cask alfred link
+
 brew cleanup
 brew cask cleanup
