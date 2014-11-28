@@ -11,6 +11,7 @@ brew install brew-cask
 brew install cabal-install
 brew install clisp
 brew install cmake
+brew install colordiff
 brew install cpanminus
 brew install ctags
 brew install curl
@@ -33,6 +34,7 @@ brew install memcached
 brew install mongodb
 brew install mysql
 brew install nginx
+brew install nkf
 brew install nvm
 brew install peco
 brew install phantomjs
