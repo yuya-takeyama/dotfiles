@@ -30,6 +30,8 @@ au BufNewFile,Bufread *.slim      set filetype=slim
 set number
 set termencoding=utf-8
 
+set backspace=start,eol,indent
+
 set background=dark
 colorscheme solarized
 
