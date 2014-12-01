@@ -18,6 +18,7 @@ brew install curl
 brew install elasticsearch
 brew install erlang
 brew install ghc
+brew install ghostscript
 brew install ghq
 brew install git
 brew install go
