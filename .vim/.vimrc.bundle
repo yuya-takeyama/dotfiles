@@ -29,6 +29,7 @@ NeoBundle 'VimClojure'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'fatih/vim-go'
+NeoBundle 'derekwyatt/vim-scala'
 
 " Color Schemes
 NeoBundle 'desert256.vim'
