@@ -21,6 +21,7 @@ brew install ghc
 brew install ghostscript
 brew install ghq
 brew install git
+brew install giter8
 brew install go
 brew install heroku
 brew install hg
