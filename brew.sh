@@ -42,6 +42,7 @@ brew install peco
 brew install phantomjs
 brew install python3
 brew install pow
+brew install python
 brew install rbenv
 brew install ruby-build
 brew install rsync
