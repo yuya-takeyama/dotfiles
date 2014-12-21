@@ -7,6 +7,7 @@ brew tap homebrew/dupes
 brew tap motemen/ghq
 brew tap peco/peco
 
+brew install boot2docker
 brew install brew-cask
 brew install cabal-install
 brew install clisp
@@ -15,8 +16,10 @@ brew install colordiff
 brew install cpanminus
 brew install ctags
 brew install curl
+brew install docker
 brew install elasticsearch
 brew install erlang
+brew install fig
 brew install ghc
 brew install ghostscript
 brew install ghq
