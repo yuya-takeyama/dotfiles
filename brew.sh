@@ -10,6 +10,7 @@ brew tap peco/peco
 brew install boot2docker
 brew install brew-cask
 brew install cabal-install
+brew install cgdb
 brew install clisp
 brew install cmake
 brew install colordiff
@@ -20,6 +21,7 @@ brew install docker
 brew install elasticsearch
 brew install erlang
 brew install fig
+brew install gdb
 brew install ghc
 brew install ghostscript
 brew install ghq
