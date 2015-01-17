@@ -46,6 +46,7 @@ brew install nvm
 brew install peco
 brew install phantomjs
 brew install python3
+brew install postgresql
 brew install pow
 brew install python
 brew install rbenv
