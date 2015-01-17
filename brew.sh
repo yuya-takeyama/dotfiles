@@ -4,6 +4,7 @@ brew upgrade
 brew tap caskroom/cask
 brew tap caskroom/versions
 brew tap homebrew/dupes
+brew tap homebrew/homebrew-php
 brew tap motemen/ghq
 brew tap peco/peco
 
@@ -14,6 +15,7 @@ brew install cgdb
 brew install clisp
 brew install cmake
 brew install colordiff
+brew install composer
 brew install cpanminus
 brew install ctags
 brew install curl
@@ -55,6 +57,7 @@ brew install rsync
 brew install sbt
 brew install scala
 brew install sqlite
+brew install sshfs
 brew install tig
 brew install tmux
 brew install tree
