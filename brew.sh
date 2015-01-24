@@ -7,6 +7,7 @@ brew tap homebrew/dupes
 brew tap homebrew/homebrew-php
 brew tap motemen/ghq
 brew tap peco/peco
+brew tap tcnksm/ghr
 
 brew install boot2docker
 brew install brew-cask
@@ -27,6 +28,7 @@ brew install gdb
 brew install ghc
 brew install ghostscript
 brew install ghq
+brew install ghr
 brew install git
 brew install giter8
 brew install go
