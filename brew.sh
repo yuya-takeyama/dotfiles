@@ -6,7 +6,6 @@ brew tap caskroom/versions
 brew tap homebrew/dupes
 brew tap homebrew/homebrew-php
 brew tap motemen/ghq
-brew tap peco/peco
 brew tap tcnksm/ghr
 
 brew install boot2docker
