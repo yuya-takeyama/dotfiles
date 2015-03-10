@@ -57,7 +57,7 @@ if $GOROOT != ''
 endif
 " http://qiita.com/methane/items/4905f40e4772afec3e60
 " :Fmt などで gofmt の代わりに goimports を使う
-let g:gofmt_command = 'goimports'
+let g:go_fmt_command = "goimports"
 
 " Go に付属の plugin と gocode を有効にする
 set rtp^=${GOROOT}/misc/vim
