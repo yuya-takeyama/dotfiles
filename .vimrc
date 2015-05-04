@@ -35,7 +35,7 @@ set termencoding=utf-8
 set backspace=start,eol,indent
 
 set background=dark
-colorscheme solarized
+colorscheme desert256
 
 let g:acp_enableAtStartup = 0
 " Use neocomplete.
