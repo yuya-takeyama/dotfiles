@@ -40,6 +40,7 @@ brew install leiningen
 brew install libiconv
 brew install libxml2
 brew install llvm
+brew install lua
 brew install memcached
 brew install mongodb
 brew install mysql
@@ -62,7 +63,7 @@ brew install sshfs
 brew install tig
 brew install tmux
 brew install tree
-brew install vim
+brew install vim --override-system-vi --with-lua --with-python3
 brew install watch
 brew install wget
 brew install --disable-etcdir zsh

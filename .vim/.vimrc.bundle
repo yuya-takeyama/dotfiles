@@ -1,6 +1,6 @@
 NeoBundle 'Shougo/neobundle.vim'
 
-NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimshell.git'
 NeoBundle 'Shougo/vimproc.git'

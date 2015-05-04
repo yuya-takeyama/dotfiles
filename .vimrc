@@ -37,7 +37,11 @@ set backspace=start,eol,indent
 set background=dark
 colorscheme solarized
 
-let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
+let g:acp_enableAtStartup = 0
+" Use neocomplete.
+let g:neocomplete#enable_at_startup = 1
+" Use smartcase.
+let g:neocomplete#enable_smart_case = 1
 
 let g:Powerline_symbols = 'fancy'
 set nocompatible   " Disable vi-compatibility
