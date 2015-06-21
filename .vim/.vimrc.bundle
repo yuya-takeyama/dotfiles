@@ -30,6 +30,7 @@ NeoBundle 'elzr/vim-json'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'fatih/vim-go'
 NeoBundle 'derekwyatt/vim-scala'
+NeoBundle 'kana/vim-filetype-haskell'
 
 " Color Schemes
 NeoBundle 'desert256.vim'
