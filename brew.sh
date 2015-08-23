@@ -31,6 +31,8 @@ brew install ghr
 brew install git
 brew install giter8
 brew install go
+brew install gts
+brew install graphviz
 brew install heroku
 brew install hg
 brew install htop
