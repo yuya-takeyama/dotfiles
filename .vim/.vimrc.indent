@@ -43,5 +43,5 @@ if has("autocmd")
   autocmd FileType md         setlocal sw=2 sts=2 ts=2 et
   autocmd FileType scss       setlocal sw=2 sts=2 ts=2 et
   autocmd FileType coffee     setlocal sw=2 sts=2 ts=2 et
-  autocmd FileType hbs        setlocal sw=2 sts=2 ts=2 et
+  autocmd FileType html.handlebars setlocal sw=2 sts=2 ts=2 et
 endif
