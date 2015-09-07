@@ -54,6 +54,7 @@ brew install phantomjs
 brew install python3
 brew install postgresql
 brew install pow
+brew install pt
 brew install python
 brew install rbenv
 brew install ruby-build
