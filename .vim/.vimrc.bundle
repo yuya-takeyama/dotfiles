@@ -32,6 +32,7 @@ NeoBundle 'fatih/vim-go'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'kana/vim-filetype-haskell'
 NeoBundle 'elixir-lang/vim-elixir'
+NeoBundle 'nono/vim-handlebars'
 
 " Color Schemes
 NeoBundle 'desert256.vim'
