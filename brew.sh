@@ -44,7 +44,7 @@ brew install libxml2
 brew install llvm
 brew install lua
 brew install memcached
-brew install mongodb
+brew install mongodb --with-openssl
 brew install mysql
 brew install nginx
 brew install nkf
