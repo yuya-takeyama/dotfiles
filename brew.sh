@@ -56,6 +56,7 @@ brew install postgresql
 brew install pow
 brew install pt
 brew install python
+brew install qt4
 brew install rbenv
 brew install ruby-build
 brew install rsync
