@@ -58,6 +58,7 @@ brew install pt
 brew install python
 brew install qt4
 brew install rbenv
+brew install reattach-to-user-namespace
 brew install ruby-build
 brew install rsync
 brew install sbt
