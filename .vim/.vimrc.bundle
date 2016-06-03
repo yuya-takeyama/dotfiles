@@ -34,6 +34,7 @@ NeoBundle 'kana/vim-filetype-haskell'
 NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'cespare/vim-toml'
+NeoBundle 'leafgarland/typescript-vim'
 
 " Color Schemes
 NeoBundle 'desert256.vim'
