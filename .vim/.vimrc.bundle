@@ -36,6 +36,7 @@ NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'cespare/vim-toml'
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
+NeoBundle 'hashivim/vim-terraform'
 
 " Color Schemes
 NeoBundle 'desert256.vim'
