@@ -71,6 +71,7 @@ brew install tree
 brew install vim --override-system-vi --with-lua --with-python3
 brew install watch
 brew install wget
+brew install yarn
 brew install --disable-etcdir zsh
 
 brew cask install alfred
