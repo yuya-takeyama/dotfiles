@@ -1,0 +1,6 @@
+{
+    "Style": {
+        "Selected": ["on_magenta", "black"],
+        "Matched": ["bold", "yellow"]
+    }
+}
