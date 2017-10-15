@@ -22,7 +22,13 @@ NeoBundle 'stephpy/vim-php-cs-fixer'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'hail2u/vim-css3-syntax'
 NeoBundle 'pangloss/vim-javascript'
-NeoBundle 'mxw/vim-jsx'
+
+" http://qiita.com/maxmellon/items/f75861f104b8c1e3ead0
+NeoBundle 'othree/yajs.vim'
+NeoBundle 'maxmellon/vim-jsx-pretty'
+NeoBundle 'othree/javascript-libraries-syntax.vim'
+NeoBundle 'othree/es.next.syntax.vim'
+
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'VimClojure'
@@ -38,6 +44,7 @@ NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'Glench/Vim-Jinja2-Syntax'
 NeoBundle 'hashivim/vim-terraform'
 NeoBundle 'posva/vim-vue'
+NeoBundle 'udalov/kotlin-vim'
 
 " Color Schemes
 NeoBundle 'desert256.vim'
