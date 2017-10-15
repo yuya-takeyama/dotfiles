@@ -91,6 +91,7 @@ brew cask install unity3d
 brew cask install vagrant
 brew cask install virtualbox
 brew cask install yorufukurou
+brew cask install fastlane
 
 brew cask alfred link
 
