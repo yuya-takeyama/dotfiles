@@ -1,2 +1,2 @@
-# 選択したcommitをGitHubで表示
+# Open the origin commit from tig blame
 bind generic ~ !@hub browse -- commit/%(commit)
