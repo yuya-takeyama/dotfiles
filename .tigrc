@@ -1,0 +1,2 @@
+# 選択したcommitをGitHubで表示
+bind generic ~ !@hub browse -- commit/%(commit)
