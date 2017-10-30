@@ -17,6 +17,7 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'gregsexton/gitv'
 NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'stephpy/vim-php-cs-fixer'
+NeoBundle 'pocket/whichpr'
 
 " Syntax
 NeoBundle 'groenewege/vim-less'

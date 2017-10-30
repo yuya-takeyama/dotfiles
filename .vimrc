@@ -73,3 +73,7 @@ au FileType go compiler go
 
 " NERDtree
 let NERDTreeIgnore = ['\.swp$', '\.pyc$']
+
+" https://github.com/pocke/whichpr
+set rtp+=~/src/github.com/pocke/whichpr/
+nnoremap <F5> :call whichpr#open()<CR>
