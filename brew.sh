@@ -38,6 +38,8 @@ brew install hg
 brew install htop
 brew install hub
 brew install imagemagick
+brew install kubectl
+brew install kubectx
 brew install leiningen
 brew install libiconv
 brew install libxml2
