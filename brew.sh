@@ -9,7 +9,6 @@ brew tap motemen/ghq
 brew tap tcnksm/ghr
 
 brew install awscli
-brew install boot2docker
 brew install brew-cask
 brew install cabal-install
 brew install cgdb
@@ -20,7 +19,6 @@ brew install composer
 brew install cpanminus
 brew install ctags
 brew install curl
-brew install docker
 brew install elasticsearch
 brew install erlang
 brew install fig
