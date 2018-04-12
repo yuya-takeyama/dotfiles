@@ -8,6 +8,7 @@ brew tap homebrew/homebrew-php
 brew tap motemen/ghq
 brew tap tcnksm/ghr
 
+brew install awscli
 brew install boot2docker
 brew install brew-cask
 brew install cabal-install
