@@ -1,6 +1,7 @@
 brew update
 brew upgrade
 
+brew tap azure/draft
 brew tap caskroom/cask
 brew tap caskroom/versions
 brew tap homebrew/dupes
@@ -19,6 +20,7 @@ brew install composer
 brew install cpanminus
 brew install ctags
 brew install curl
+brew install draft
 brew install elasticsearch
 brew install erlang
 brew install fig
@@ -85,6 +87,7 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install gyazo
 brew cask install iterm2
+brew cask install minikube
 brew cask install robomongo
 brew cask install skype
 brew cask install thunderbird-ja
