@@ -68,6 +68,7 @@ brew install sbt
 brew install scala
 brew install sqlite
 brew install sshfs
+brew install stern
 brew install tig
 brew install tmux
 brew install tree
