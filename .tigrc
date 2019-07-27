@@ -1,2 +1,3 @@
 # Open the origin commit from tig blame
 bind generic ~ !@hub browse -- commit/%(commit)
+set commit-order = default

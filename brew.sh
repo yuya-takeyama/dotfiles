@@ -39,6 +39,7 @@ brew install hg
 brew install htop
 brew install hub
 brew install imagemagick
+brew install jid
 brew install kubectl
 brew install kubectx
 brew install leiningen
