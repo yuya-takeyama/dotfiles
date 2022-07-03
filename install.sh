@@ -1,13 +1,11 @@
 #!/usr/bin/env zsh
 
-set -eux
+set -eu
 set -o pipefail
 
 __dir__=$(cd $(dirname $0);pwd)
 
-echo "CODESPACES ENV VARS"
-env
-if [[ "$HOME" == "/home/codespace" || "$HOME" == "/home/vscode" ]]; then
+if [ -n "$GITHUB_CODESPACE_TOKEN" ]; then
   # In GitHub Codespaces
   echo "Running installation process for environments in GitHub Codespaces"
   for file in .tigrc .tmux.conf; do
