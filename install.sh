@@ -11,7 +11,7 @@ if [[ "$HOME" == "/home/codespace" ]]; then
 
     ln -vs $__dir__/$file $HOME/$file
   done
-elif
+else
   # In the other environments
   echo "Running installation process for non-GitHub Codespaces environments"
   for file in .vim .vimrc .gitconfig .gitignore.global .screenrc .tigrc .tmux.conf; do
