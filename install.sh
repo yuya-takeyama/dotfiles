@@ -1,5 +1,7 @@
 __dir__=$(cd $(dirname $0);pwd)
 
+grep "CODESPACES ENV VARS"
+env
 if [[ "$HOME" == "/home/codespace" ]]; then
   # In GitHub Codespaces
   echo "Running installation process for environments in GitHub Codespaces"
