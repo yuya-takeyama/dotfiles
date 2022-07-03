@@ -3,4 +3,4 @@
 	url = https://github.com/Shougo/neobundle.vim.git
 [submodule "solarized"]
 	path = solarized
-	url = git://github.com/altercation/solarized.git
+	url = https://github.com/altercation/solarized.git
