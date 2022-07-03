@@ -5,7 +5,9 @@ set -o pipefail
 
 __dir__=$(cd $(dirname $0);pwd)
 
-if [ -n "$GITHUB_CODESPACE_TOKEN" ]; then
+codespace_token="${GITHUB_CODESPACE_TOKEN:-}"
+
+if [ -n "$codespace_token" ]; then
   # In GitHub Codespaces
   echo "Running installation process for environments in GitHub Codespaces"
   for file in .tigrc .tmux.conf; do
