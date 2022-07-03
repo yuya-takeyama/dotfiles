@@ -10,7 +10,7 @@ codespace_token="${GITHUB_CODESPACE_TOKEN:-}"
 if [ -n "$codespace_token" ]; then
   # In GitHub Codespaces
   echo "Running installation process for environments in GitHub Codespaces"
-  for file in .tigrc .tmux.conf; do
+  for file in .tigrc .tmux.conf .zshrc; do
     if [ -e $HOME/$file ]; then
       echo Delete $HOME/$file
       rm $HOME/$file
