@@ -1,6 +1,11 @@
+#!/usr/bin/env zsh
+
+set -eux
+set -o pipefail
+
 __dir__=$(cd $(dirname $0);pwd)
 
-grep "CODESPACES ENV VARS"
+echo "CODESPACES ENV VARS"
 env
 if [[ "$HOME" == "/home/codespace" || "$HOME" == "/home/vscode" ]]; then
   # In GitHub Codespaces
