@@ -39,4 +39,8 @@ brew install watch
 brew install wget
 brew install yarn
 
+brew tap microsoft/git
+brew install --cask git-credential-manager-core
+brew upgrade git-credential-manager-core
+
 brew cleanup
