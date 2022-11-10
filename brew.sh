@@ -8,6 +8,7 @@ brew install awscli
 brew install cmake
 brew install colordiff
 brew install curl
+brew install fzf
 brew install ghq
 brew install git
 brew install go
