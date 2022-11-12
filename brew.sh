@@ -16,6 +16,7 @@ brew install graphviz
 brew install heroku
 brew install htop
 brew install imagemagick
+brew install jq
 brew install kubectl
 brew install kubectx
 brew install libiconv
