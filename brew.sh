@@ -4,6 +4,7 @@ brew upgrade
 brew tap motemen/ghq
 brew tap tcnksm/ghr
 
+brew install aquaproj/aqua/aqua
 brew install awscli
 brew install cmake
 brew install colordiff
